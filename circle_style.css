@@ -1,11 +1,47 @@
-.dot {
-  height: 25px;
-  width: 25px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
+h1 {
+  margin: 50px 75px 50px 75px;
+  padding: 30px 100px 30px 100px; 
 }
 
-.starter {
-  margin: 10px;
+.title {
+  font-family: sans-serif;
+  font-size: 40;
+  padding: 40px;
+  border-style: groove;
+  border-width: 5px;
+}
+
+.center {
+  height: 500px;
+  position: relative;
+}
+
+.center-button {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.start {
+  font-size: 20;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: beige;
+  color: darkred;
+  display: inline-block;
+  padding: 20px;
+  border: 2px solid red;
+  border-radius: 16px;
+  margin: 4px 2px;
+}
+
+table {
+  margin: 1rem auto;
+}
+
+td {
+  padding: 3rem;
 }
