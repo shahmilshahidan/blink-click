@@ -9,9 +9,14 @@
 		<h1 class="Title">This is the reaction test.</h1>
 		<div class="center">
 			<div class="center-button">
-				<button class="start" onclick="startButton()">START TEST</button>
+				<button id="startBtn" class="start" onclick="startButton()">START TEST</button>
 			</div>
 		</div>
 	</div>
 </p>
+<body>
+	<div id="tableContainer"></div>
+	<button onclick="startFlashing()">Start Circles</button>
+	<canvas id="canvas" width="300" height="300"></canvas>
+</body>
 </html>
